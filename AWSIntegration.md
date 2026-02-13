@@ -5,3 +5,7 @@ Because I want this SOC to be hybrid, I will be connecting AWS to it, specifical
 The first thing I am going to do is create a trail in CloudTrail.
 
 <img width="1920" height="903" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/600935ef-d44e-42c8-97a2-27759b24f188" />
+
+Immediately following the creation of the trail, a S3 bucket is created to store those logs being ingested CloudTrail.
+
+<img width="1920" height="877" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/0f4f62de-cf3e-4323-b5a0-0f29f3a7b1bc" />
