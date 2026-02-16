@@ -17,3 +17,6 @@ The Windows endpoint is now appearing in Wazuh.
 
 <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/28b333aa-8d0e-47e6-9dd4-d6e0ebf473cc" />
 
+Now that mostly everything is in place and my Kali machine, Windows machine, and Wazuh machine are all on the same LAN behind the firewall, I wanted to ping the Windows machine from Kali. I first attempted to do this and didn't get any ICMP messages sent back to me. I found out that by default, Windows 10 machines blocks all inbound ICMP messages so I ran this command to disable the Windows firewall which is also important for this lab so I can attack it from Kali. **netsh advfirewall set allprofiles state off**
+
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/b5772e77-9c52-4d0e-b4e2-f806121643a3" />
