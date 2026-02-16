@@ -20,3 +20,9 @@ The Windows endpoint is now appearing in Wazuh.
 Now that mostly everything is in place and my Kali machine, Windows machine, and Wazuh machine are all on the same LAN behind the firewall, I wanted to ping the Windows machine from Kali. I first attempted to do this and didn't get any ICMP messages sent back to me. I found out that by default, Windows 10 machines blocks all inbound ICMP messages so I ran this command to disable the Windows firewall which is also important for this lab so I can attack it from Kali. **netsh advfirewall set allprofiles state off**
 
 <img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/b5772e77-9c52-4d0e-b4e2-f806121643a3" />
+
+What's really cool about Wazuh is that once I installed the agent on my Windows machine, a security report card is generated which is called CIS Microsoft Windows 10 Enterprise Benchmark v4.0.0. Within this are benchmarks that help with system hardening. Wazuh uses its SCA (Security Configuration Assessment) module to scan my VMs which in this case is the Windows 10 machine and checks how many of these "best practice" rules I am actually following.
+
+<img width="1920" height="948" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/a5927ff1-43ae-4e04-9b18-a90f14333625" />
+
+The **passed** logs mean my Windows settings match the secure recommendation and the **failed** logs mean the current state of the machine is considered a security risk.
