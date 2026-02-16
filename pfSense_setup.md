@@ -8,3 +8,7 @@ The biggest issue turned out to be the host-only adapter itself. It was using th
 
 
 <img width="1920" height="927" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/85595c47-bc74-48a5-8d24-8deb482d6079" />
+
+From  here, I am going to run the Setup Wizard.
+
+<img width="1920" height="943" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/baabc1cb-c748-41d3-bc55-5c19b0c3cce4" />
