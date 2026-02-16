@@ -1,4 +1,4 @@
-# Installing Windows 10 VM
+# Windows 10 VM
 
 Creating the Windows 10 ISO image was a bit more complicated then I expected it to be. Looking over the official [Download Windows 10](https://www.microsoft.com/en-us/software-download/windows10?msockid=106e5622b34763fd1a1640dfb29e623d) documentation, I downloaded the installation media which eventually prompted me with selecting a USB flash drive, DVD, or ISO file. I chose the ISO file and saved it to my desktop. This took around 5 minutes to download but once it finished, I opened the file in my VMware and began setting up the machine to my liking. Once the machine became usable, I immediately opened up PowerShell as an admin and ran **ipconfig** to check the IP address. 
 
