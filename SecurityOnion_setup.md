@@ -1,6 +1,6 @@
 # Security Onion
 
-Setting up the Security onion should be fairly simple. I will have to configure two interfaces for this. One for management and one for sniffing. The management interface will be assigned an IP of **192.168.240.50**. Since my LAN VMs are between the range of 192.168.240.100–192.168.240.200, I want the management interface to be outside that DHCP/static range to avoid IP conflicts.
+Setting up the Security Onion should be fairly simple. I did some research and found this [Github repo](https://github.com/Security-Onion-Solutions/securityonion/blob/2.4/main/DOWNLOAD_AND_VERIFY_ISO.md) that had the ISO image to download. On Security Onion's documentation, I saw I could download an AMI for Security Onion to be deployed in AWS which is really intriguing and something I may pursue down the line when I want to switch up the architecture of this SOC. But to start, I will have to configure two interfaces for this. One for management and one for sniffing. The management interface will be assigned an IP of **192.168.240.50**. Since my LAN VMs are between the range of 192.168.240.100–192.168.240.200, I want the management interface to be outside that DHCP/static range to avoid IP conflicts.
 
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/969c0421-60c3-4a35-b558-3c28e5b93484" />
 
