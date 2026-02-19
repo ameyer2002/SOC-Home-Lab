@@ -6,6 +6,11 @@ Setting up the Security Onion should be fairly simple. I did some research and f
 
 I then setup the gateway IP to be **192.168.240.1** and the DNS server to **8.8.8.8**. Following this, I basically configured an allowlist in a way since I had to select an IP address or range to allow access to Security Onion. For this, I used my subnet IP which is **192.168.240.0/24**.
 
+<img width="1280" height="768" alt="image" src="https://github.com/user-attachments/assets/2be8c5ba-d0d6-4b70-97fb-e43ec4fcbf74" />
+
+Finally, I see the summary of my Security Onion setup.
+
+<img width="1280" height="768" alt="image" src="https://github.com/user-attachments/assets/2b354c31-c169-4a9f-b9c7-ef28436cae5c" />
 
 What I did from here was boot my pfsense machine which contains the LAN of all my machines. From the security onion terminal, I tried pinging the kali and windows machine but didn't get any ICMP messages sent back to me. I then went into each of those machines as ran a **ip a** on the kali machine and **ipconfig** on the windows machine to confirm the IP addresses were those from the IP range from the LAN. I saw they weren't but then realized my pfsense machine would have to be the first machine started in this lab in order for every other machine to have the correct IP in the LAN. I then pinged those machines and they were now running from the LAN.
 
