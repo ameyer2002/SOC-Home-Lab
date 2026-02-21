@@ -11,5 +11,20 @@ I did some research and found this [Github repo](https://github.com/Security-Oni
 
 At this point, I'm going to log into all of my tools applications. First is Elastic Kibana.
 
+<img width="1920" height="945" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/3170c289-97d2-495c-83f4-ada2f7508019" />
 
 Elastic Fleet
+
+<img width="1920" height="922" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/28a32d95-b25a-4bd6-9fa4-ed3dc5ebafbd" />
+
+InfluxDB
+
+<img width="1920" height="951" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/75dff112-8287-4245-b09d-df2da550ba91" />
+
+CyberChef
+
+<img width="1920" height="946" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/7987b498-ff6e-4d7e-a3f5-c7421f33d038" />
+
+Elastic Osquery Manager
+
+<img width="1920" height="948" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/39234404-0ffe-4212-9709-907a5043cc4d" />
