@@ -4,5 +4,12 @@ I did some research and found this [Github repo](https://github.com/Security-Oni
 
 <img width="749" height="565" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/dfc30409-92f7-47ba-9dba-5a9b0a7357e3" />
 
+<img width="1280" height="768" alt="image" src="https://github.com/user-attachments/assets/2c6743ba-ded8-4e1d-9288-18c49d4996a1" />
 
-<img width="1280" height="768" alt="image" src="https://github.com/user-attachments/assets/aeca09e5-2b1b-4274-8f77-a3b8cf5c5ec0" />
+
+<img width="1920" height="944" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/5e23e87b-2186-46b6-a254-751aa03b86db" />
+
+At this point, I'm going to log into all of my tools applications. First is Elastic Kibana.
+
+
+Elastic Fleet
